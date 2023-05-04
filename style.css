@@ -300,6 +300,12 @@ border-radius: 6px;
     width: 174px;
     height: 30.08px;
     background-color: #FFFFFF;
+    border: 1px solid #E36D00;
+border-radius: 10px;
+color: #E36D00;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
 }
 .icons{
 background-color: #000000;
