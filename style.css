@@ -174,7 +174,7 @@ hr{
     gap: 20px;
 }
 .whatwedo-card{
-    background-image: url(/images/hero.png);
+    background-image: url(./images/hero.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
