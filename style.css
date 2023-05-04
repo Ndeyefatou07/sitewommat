@@ -64,10 +64,9 @@ button:hover{
     border-radius: 7px;
     color: white;
     padding: 5px 15px;
-    background-color:black;
+    background-color: transparent;
     
     font-weight: bold;
-   
 }
 .hero p{
     text-align: center;
