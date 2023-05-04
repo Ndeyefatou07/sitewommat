@@ -463,7 +463,7 @@ color: #FFFFFF;
     }
     .login{padding: 5px 6px;}
     .Insign{margin-top: 5px;padding: 5px 6px;font-size: 16px;}
-    .Recherche{padding:40px 0px;display: flex;justify-content: space-between;}
+    .Recherche{padding:40px 0px;display: flex;justify-content: center;}
     .search-input{
         font-weight: bold;
         font-size: 16px;
