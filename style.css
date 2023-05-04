@@ -28,10 +28,11 @@ body{
     font-family: 'Script MT Bold'; 
     
 }
+.menu ul{display:flex;}
 .menu ul li{
     list-style-type: none;
-    display: inline-block;
     padding: 0px 21px;
+    
 }
 li a{
     text-decoration: none;
@@ -127,7 +128,7 @@ hr{
 .left-container{display: flex;flex-wrap: wrap;}
 .left{
     display:flex;
-    flex-direction: column;}
+    flex-direction: column;gap: 20px;}
 .left p{
     font-weight: 400;
     font-size: 1.2rem;
@@ -140,12 +141,11 @@ hr{
 .left button{
     border: 1px solid #E36D00;
     border-radius: 15px;
-    padding: 10px 12px;
+    padding: 10px;
     font-weight: bold;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin:5%;
-    width: 30%;
+    width: 25%;
+    
+    
 }
     .left-container img{
 
@@ -484,13 +484,14 @@ color: #FFFFFF;
         margin-right: auto;
         margin-left: auto;
     }
+    .left{align-items: center;}
     .left-container img{width:100%;vertical-align: middle;}
     .About-us h2{
     padding-top: 22px;
     font-size: 25px;
     line-height: 29px;
     }
-    .left button{margin-left: 50px;}
+    
     .left-container{padding-top:15px;flex-direction: column-reverse;}
     .whatwedo{padding:10px}
     .whatwedo-container{flex-direction: column;height: auto;}
