@@ -9,15 +9,14 @@ body{
     background: #F2F2F2;
 }
 .hero{
-    padding: 14px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/hero.png);
     display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/hero.png);
     flex-direction: column;
     justify-content: space-between;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+    }
 .navbar{
     display: flex;
     align-items: center;
@@ -81,9 +80,7 @@ button:hover{
 
 .Recherche{
     display: flex;
-    padding-top: 96px;
-    padding-left: 283px;
-    padding-right: 283px;
+    padding: 70px 70px 70px 300px;
     gap:15px;
 }
 .search-input{
@@ -105,10 +102,10 @@ button:hover{
 }
 /* Qui sommes nous */
 .About-us{
-    display:flex;
-    flex-direction:column;
+    display:block;
     justify-content: space-between;
-    padding-left: 30px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 hr{
     background: #E36D00;
@@ -118,36 +115,45 @@ hr{
     margin-top: 53px;
 }
 .about-container{
-    display: flex;
-    flex-direction: column;
-    gap: 27px;
+    display: block;
+    padding-left: 1.5rem
 }
 .About-us h2{
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    padding-top: 42px;
+    padding-top: 32px;
+    
 }
-.left-container{display: flex;gap:40px;}
+.left-container{display: flex;flex-wrap: wrap;}
+.left{
+    display:flex;
+    flex-direction: column;}
 .left p{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 35px;
+    font-size: 1.2rem;
+    line-height: 1.5;
     text-align: justify;  
+    width: 100%;
+    padding-right: 15px;
+    margin-top: 10px;
 }
 .left button{
     border: 1px solid #E36D00;
     border-radius: 15px;
-    padding: 15px 21px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 35px;
-    margin-top: 15px;
+    padding: 10px 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin:5%;
+    width: 30%;
 }
-.left-container img{
+    .left-container img{
 
-    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.4));
-    border-radius: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+        filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.4));
+        border-radius: 30px;
 }
 .whatwedo{
     display: flex;
@@ -236,19 +242,12 @@ line-height: 24px;
 }
 .teacher{
     display: flex;
-    flex-direction: column;
-    gap: 47px;
-    justify-content: space-between;
-    padding:40px;
 }
-.teacher h2{
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-}
+
 .teacher-container{
     display: flex;
-    gap:102px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .teacher-container img{
 width: 590px;
@@ -258,44 +257,42 @@ border-radius: 15px;
 }
 .teacher-right{
     display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.right{    
+    display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    width: 508px;
-    height: 361px;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     padding: 6px 50px;
     gap: 10px;
-}
-.teacher-right hr{
+    height: 55%;}
+
+.right hr{
 width: 131px;
 height: 9.26px;
 background: #E36D00;
 border-radius: 6px;
 }
-.teacher-right h3{
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-text-align: justify;
-color: #000000;
-}
-.teacher-right p{
-font-weight: 300;
-font-size: 16px;
-line-height: 30px;
-text-align: justify;
-}
-.teacher-right .join{
-width: 174px;
-height: 30.08px;
-background-color: #FFFFFF;
-border: 1px solid #E36D00;
-border-radius: 10px;
-color: #E36D00;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
+.right h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #000000;
+    }
+.right p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    }
+.join{
+    width: 174px;
+    height: 30.08px;
+    background-color: #FFFFFF;
 }
 .icons{
 background-color: #000000;
