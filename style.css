@@ -31,9 +31,8 @@ body{
 .menu ul{display:flex;}
 .menu ul li{
     list-style-type: none;
-padding: 15px;
-    align-items: center;
-    
+    padding: 15px;
+    align-items: center;  
 }
 li a{
     text-decoration: none;
@@ -492,6 +491,8 @@ color: #FFFFFF;
     font-size: 25px;
     line-height: 29px;
     }
+    .menu ul{display: block;}
+    .navbar{gap: 35px}
     
     .left-container{padding-top:15px;flex-direction: column-reverse;}
     .whatwedo{padding:10px}
