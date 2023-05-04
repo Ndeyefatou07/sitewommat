@@ -31,7 +31,8 @@ body{
 .menu ul{display:flex;}
 .menu ul li{
     list-style-type: none;
-    padding: 0px 21px;
+padding: 15px;
+    align-items: center;
     
 }
 li a{
