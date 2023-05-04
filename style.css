@@ -103,11 +103,12 @@ button:hover{
     line-height: 24px;
     color: #FFFFFF
 }
+/* Qui sommes nous */
 .About-us{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 hr{
     background: #E36D00;
@@ -118,6 +119,7 @@ hr{
 }
 .about-container{
     display: flex;
+    flex-direction: column;
     gap: 27px;
 }
 .About-us h2{
@@ -126,12 +128,7 @@ hr{
     line-height: 29px;
     padding-top: 42px;
 }
-.about-container .left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:50px;
-}
+.left-container{display: flex;gap:40px;}
 .left p{
     font-weight: 400;
     font-size: 16px;
@@ -145,10 +142,10 @@ hr{
     font-weight: 600;
     font-size: 14px;
     line-height: 35px;
+    margin-top: 15px;
 }
-.about-container img{
-    width: 586px;
-    height: 342px;
+.left-container img{
+
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.4));
     border-radius: 30px;
 }
@@ -438,8 +435,100 @@ font-size: 16px;
 line-height: 19px;
 color: #FFFFFF;
 }
+/* Styles pour les écrans de taille petite */
 
+@media screen and (max-width:480px){
 
+    .hero .navbar{
+        padding-left: 10px;
+        }
+    .hero .texte p{
+        padding-top: 86px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .navbar .buttons{
+    display: block;
+    padding: 0px 0px 0px 10px;
+    }
+    .login{padding: 5px 6px;}
+    .Insign{margin-top: 5px;padding: 5px 6px;font-size: 16px;}
+    .Recherche{padding:40px 0px;display: flex;justify-content: space-between;}
+    .search-input{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 5px 15px;
+    } 
+    .search-button{
+    padding: 5px 9px;
+    font-weight: bold;
+    font-size: 14px;    
+    } 
+    hr{width:50px;margin-top: 33px;}
+    .About-us{
+        display: block;
+        width: 100%;
+    }
+    .about-container{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .left-container img{width:100%;vertical-align: middle;}
+    .About-us h2{
+    padding-top: 22px;
+    font-size: 25px;
+    line-height: 29px;
+    }
+    .left button{margin-left: 50px;}
+    .left-container{padding-top:15px;flex-direction: column-reverse;}
+    .whatwedo{padding:10px}
+    .whatwedo-container{flex-direction: column;height: auto;}
+    .whatwedo-card{height: 100px;}
+    .Cours{width: 100%;padding:10px;}
+    .whatwedo h2{
+        padding-top: 22px;
+        font-size: 25px;
+        line-height: 29px;
+        }
+    .Cours h2{
+        padding-top: 22px;
+        font-size: 25px;
+        line-height: 29px;  
+    }
+    .card-contain{gap:10px;}
+    .cours-container{flex-direction: column;gap:5px;width: auto;height:auto;}
+    
+    .courscard{width:350px;height: 500px;padding-left: 7px;}
+    .cour-card h2{padding-top: 12px;}
+    .suivre-cours{border-radius: 7px;padding: 7px 7px;margin-top: -9px;}
+    
+    .teacher{
+        padding-top: 5rem;
+        padding-bottom: 2rem;}
+    
+    .teacher-right img{
+        width:100%}
+    .teacher-container img{width: 100%;}
+    .icons-container{
+        flex-direction: column; 
+        gap:30px;}
+    .icon img{
+        padding:50px;
+        background-color:black;}
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        padding:10px;}
+    .foot-container{
+        flex-direction: column;}
+    }
+    /* Styles pour les écrans de taille moyenne, comme les tablettes */
 
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
 
+}
 
