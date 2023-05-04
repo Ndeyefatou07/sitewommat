@@ -240,26 +240,33 @@ line-height: 24px;
     width: 174px;
     padding: 10px 12px;
 }
+/* teacher */
 .teacher{
     display: flex;
+    flex-direction: column;
+    gap: 47px;
+    justify-content: space-between;
+    padding:40px;
 }
+.teacher h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    }
 
 .teacher-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.teacher-container img{
-width: 590px;
-height: 515px;
-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-border-radius: 15px;
-}
 .teacher-right{
     display: flex;
     flex-wrap: wrap;
     gap:20px;
 }
+.teacher-right img{width:40%}
+
+
 .right{    
     display: flex;
     flex-direction: column;
